@@ -1,0 +1,33 @@
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 65vh;
+}
+
+.boxes > * {
+  color: var(--secondary-font-color) !important;
+}
+
+.boxes .box {
+  max-width: 35%;
+  margin-top: 45px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.boxes .box p {
+  margin-top: 50px;
+  color: var(--secondary-font-color) !important;
+}
+
+.boxes .box h2 {
+  margin-top: 25px;
+  color: var(--secondary-font-color) !important;
+}
+
+.boxes .box i {
+  font-size: 40px;
+  color: var(--secondary-font-color) !important;
+}

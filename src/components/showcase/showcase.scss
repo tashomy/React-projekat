@@ -1,0 +1,16 @@
+.showcase {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.showcase > p {
+  width: 65%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}

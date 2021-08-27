@@ -1,0 +1,9 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "blogPost",
+      "author": "Natasa"
+    }
+  ]
+}
