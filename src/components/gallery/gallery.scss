@@ -1,10 +1,19 @@
 .carousel {
-  width: 1000px;
-  height: 500px;
+  width: 900px;
+  // height: 500px;
   margin: auto;
 }
 
 h1 {
   margin: auto;
   text-align: center;
+}
+
+#main-heading-without-margin-top {
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.gallery-container {
+  height: 100vh;
 }

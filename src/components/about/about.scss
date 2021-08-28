@@ -1,9 +1,10 @@
 .boxes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 65vh;
+  height: 80vh;
+  // padding-top: 70px;
 }
 
 .boxes > * {
@@ -30,4 +31,10 @@
 .boxes .box i {
   font-size: 40px;
   color: var(--secondary-font-color) !important;
+}
+
+.height-100 #vawe {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

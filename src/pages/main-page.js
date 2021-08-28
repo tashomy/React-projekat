@@ -5,6 +5,8 @@ import About from '../components/about/About';
 import Features from '../components/features/Features';
 import Gallery from '../components/gallery/Gallery';
 import Nintendo from '../components/nintendo/Nintendo';
+import Pricing from '../components/pricing/Pricing';
+import Showcase from '../components/showcase/Showcase';
 import Routes from '../router';
 
 class Page extends Component {
@@ -12,10 +14,10 @@ class Page extends Component {
     render() {
         return(
             <>
-                <About/>
-                <Nintendo/>
-                <Features/>
-                <Gallery/>
+                <div className="main-container">
+                    <Showcase/>
+                    <Nintendo/>
+                </div>
             </>
         );
     }

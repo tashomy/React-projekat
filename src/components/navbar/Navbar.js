@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="nav-bar top">
+        <div className="nav-bar">
           <div className="logo-header">
             <img src={logo} alt="logo" className="logo"/>
             <span className="logo-heading"><a href="#">gameland</a></span>

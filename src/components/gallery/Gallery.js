@@ -9,9 +9,9 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Gallery = () => {
     return (
-        <>
-        <h1 className="main-heading dark-font">Gallery</h1>
-        <Carousel fade>
+        <div className="gallery-container">
+        
+        <Carousel fade id="main-heading-without-margin-top">
             <Carousel.Item>
                 <img
                 className="d-block w-100"
@@ -19,8 +19,8 @@ const Gallery = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3 className="text-background">First slide label</h3>
+                <p className="text-background">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -31,8 +31,8 @@ const Gallery = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 className="text-background">Second slide label</h3>
+                <p className="text-background">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -43,8 +43,8 @@ const Gallery = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className="text-background">Third slide label</h3>
+                <p className="text-background">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -55,8 +55,8 @@ const Gallery = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Fourth slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className="text-background">Fourth slide label</h3>
+                <p className="text-background">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -67,8 +67,8 @@ const Gallery = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>fifth slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className="text-background">fifth slide label</h3>
+                <p className="text-background">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -79,12 +79,12 @@ const Gallery = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>sixth slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className="text-background">sixth slide label</h3>
+                <p className="text-background">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
     </Carousel>
-        </>
+        </div>
     );
 }
 
