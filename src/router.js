@@ -5,6 +5,7 @@ import Page from './pages/main-page';
 import FeaturesPage from './pages/features';
 import GalleryPage from './pages/gallery';
 import PricingPage from './pages/pricing';
+import FaqPage from './pages/faq';
 
 
 const Routes = () => {
@@ -15,8 +16,8 @@ const Routes = () => {
             <Route path="/features" exact component={FeaturesPage}/>
             <Route path="/gallery" exact component={GalleryPage}/>
             <Route path="/pricing" exact component={PricingPage}/>
-            {/* <Route path="/faq" exact component={FAQ}/>
-            <Route path="/blog" exact component={Blog}/>
+            <Route path="/faq" exact component={FaqPage}/>
+            {/* <Route path="/blog" exact component={Blog}/>
             <Route path="/contact" exact component={Contact}/> */}
         </div>
      );

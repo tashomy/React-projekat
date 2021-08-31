@@ -5,5 +5,31 @@
       "title": "blogPost",
       "author": "Natasa"
     }
+  ],
+  "faq-items": [
+    {
+      "id": 1,
+      "title": "Delivery",
+      "contentOne": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia!",
+      "contentTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia! Deserunt optio iste provident minima debitis!"
+    },
+    {
+      "id": 2,
+      "title": "Return policy",
+      "contentOne": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit!",
+      "contentTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia! "
+    },
+    {
+      "id": 3,
+      "title": "Where to find us",
+      "contentOne": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia!",
+      "contentTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit!"
+    },
+    {
+      "id": 4,
+      "title": "Tech support",
+      "contentOne": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia!",
+      "contentTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab voluptatum natus autem similique sint praesentium error cupiditate sed dolorum dolorem doloribus voluptas, qui dolor accusamus assumenda labore voluptate tempora perspiciatis quibusdam delectus animi asperiores fugit! Quod unde debitis ad at eius excepturi delectus iusto earum tempore nesciunt ratione veritatis aperiam nostrum necessitatibus, beatae officiis alias pariatur facere, suscipit exercitationem, voluptate iste asperiores vel mollitia! Deserunt optio iste provident minima debitis!"
+    }
   ]
 }

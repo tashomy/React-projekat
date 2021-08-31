@@ -19,6 +19,7 @@ class Page extends Component {
                     <Nintendo/>
                 </div>
             </>
+            
         );
     }
 }
