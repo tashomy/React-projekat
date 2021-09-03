@@ -73,3 +73,31 @@
   border-bottom: 1px solid #fff;
   color: var(--primary-font-color);
 }
+
+.modal {
+  color: var(--secondary-font-color);
+  height: 500px !important;
+}
+
+.modal-title {
+  color: var(--secondary-font-color);
+}
+
+.modal-content {
+  color: var(--secondary-font-color);
+}
+
+.modal-content form label {
+  color: var(--secondary-font-color);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  background-color: var(--primary-font-color);
+}
+
+.modal-header {
+  background-color: var(--primary-font-color);
+}

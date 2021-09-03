@@ -17,3 +17,32 @@ h1 {
 .gallery-container {
   height: 100vh;
 }
+
+.image-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.image-item h3,
+.image-item p {
+  color: var(--secondary-font-color);
+  margin: 20px;
+}
+
+.image-item:nth-child(odd) {
+  background-color: var(--secondary-font-color);
+  color: #fff !important;
+}
+
+.image-item:nth-child(odd) h3,
+.image-item:nth-child(odd) p {
+  color: #fff;
+}
+
+.image-item h3 {
+  min-width: 15%;
+}

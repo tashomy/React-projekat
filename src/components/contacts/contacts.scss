@@ -5,7 +5,7 @@
   flex-direction: row !important;
   justify-content: space-around !important;
   align-items: center !important;
-  height: 100vh;
+  height: 90vh;
 }
 
 .contacts form {
@@ -38,12 +38,12 @@
   max-width: 302px !important;
 }
 
-.contacts form input:focus {
+form input:focus {
   outline: var(--primary-font-color);
   outline-offset: 1px;
   outline-style: inset;
 }
-.contacts form textarea:focus {
+form textarea:focus {
   outline: var(--primary-font-color);
   outline-offset: 1px;
   outline-style: inset;
@@ -52,4 +52,12 @@
 .contacts label {
   cursor: pointer;
   font-size: 20px;
+}
+
+.icons-contact {
+  height: 10vh;
+  background-color: var(--secondary-font-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

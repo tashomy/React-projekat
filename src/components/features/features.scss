@@ -32,5 +32,5 @@
 .services .service:hover {
   color: var(--primary-font-color);
   /* border: 1px dotted var(--primary-font-color); */
-  scale: 1.05;
+  transform: scale(1.05);
 }
