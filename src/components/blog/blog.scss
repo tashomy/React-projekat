@@ -1,0 +1,44 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: var(--secondary-font-color);
+  padding-top: 100px;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.blog-box h2,
+.blog-box p {
+  color: var(--secondary-font-color);
+}
+
+.blog-box h2 {
+  width: 150px;
+  margin-right: 55px;
+  padding: 20px;
+}
+
+.blog-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-sub > * {
+  padding: 20px;
+  color: var(--secondary-font-color);
+}
+
+.blog img {
+  max-width: 50%;
+}

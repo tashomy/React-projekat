@@ -1,0 +1,55 @@
+.contacts {
+  background-color: var(--secondary-font-color) !important;
+  color: var(--primary-font-color) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  height: 100vh;
+}
+
+.contacts form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.form-controling {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.form-controling input,
+.form-controling textarea {
+  width: 350px !important;
+  height: 30px !important;
+  margin: 10px !important;
+}
+
+#message {
+  height: 170px !important;
+  resize: none !important;
+}
+
+.cont-img img {
+  max-width: 302px !important;
+}
+
+.contacts form input:focus {
+  outline: var(--primary-font-color);
+  outline-offset: 1px;
+  outline-style: inset;
+}
+.contacts form textarea:focus {
+  outline: var(--primary-font-color);
+  outline-offset: 1px;
+  outline-style: inset;
+}
+
+.contacts label {
+  cursor: pointer;
+  font-size: 20px;
+}
