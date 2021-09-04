@@ -20,7 +20,14 @@ class BlogPage extends Component {
     console.log(this.state.blogs);
     if (this.state.loader == true) {
       return (
-        <>
+        <div
+          style={{
+            position: "fixed",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+        >
           <Loader
             type="TailSpin"
             color="#00BFFF"
@@ -28,7 +35,7 @@ class BlogPage extends Component {
             width={300}
             timeout={3000} //3 secs
           />
-        </>
+        </div>
       );
     } else {
       return (

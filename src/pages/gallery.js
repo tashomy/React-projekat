@@ -15,7 +15,14 @@ class GalleryPage extends Component {
   render() {
     if (this.state.loader == true) {
       return (
-        <>
+        <div
+          style={{
+            position: "fixed",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+        >
           <Loader
             type="Puff"
             color="#00BFFF"
@@ -23,7 +30,7 @@ class GalleryPage extends Component {
             width={300}
             timeout={3000} //3 secs
           />
-        </>
+        </div>
       );
     } else {
       return (
