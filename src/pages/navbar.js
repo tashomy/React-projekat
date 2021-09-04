@@ -4,10 +4,13 @@ import Navbar from "../components/navbar/Navbar";
 class NavBarPage extends Component {
   constructor(props) {
     super(props);
-    this.state = { blogs: {}, loader: true };
+    this.state = { loader: true };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    let self = this;
+    self.setState({ loader: false });
+  }
 
   render() {
     return (

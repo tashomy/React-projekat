@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Contacts from "../components/contacts/Contacts";
+import Loader from "react-loader-spinner";
 
 class ContactsPage extends Component {
   constructor(props) {

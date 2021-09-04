@@ -5,28 +5,28 @@
       "title": "Blog 1",
       "author": "Natasa",
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quasi accusamus delectus excepturi possimus expedita provident, tenetur laborum dicta sequi commodi et ipsum aperiam maxime. Totam architecto temporibus adipisci nobis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi animi exercitationem ad molestiae necessitatibus inventore laborum esse dolore ipsam quae fugiat reprehenderit adipisci, tempore dicta! Illum quibusdam quam qui laboriosam.",
-      "img": "/images/blog1.jpg"
+      "img": "/blog1.jpg"
     },
     {
       "id": 2,
       "title": "Blog 2",
       "author": "Natasa",
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quasi accusamus delectus excepturi possimus expedita provident, tenetur laborum dicta sequi commodi et ipsum aperiam maxime. Totam architecto temporibus adipisci nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae quibusdam ipsa aspernatur! Inventore dolores perferendis dolorum provident, voluptas cupiditate non maxime sint minus ab quam corporis, explicabo repellendus incidunt.",
-      "img": "/images/blog2.jpg"
+      "img": "/blog2.jpg"
     },
     {
       "id": 3,
       "title": "Blog 3",
       "author": "Natasa",
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quasi accusamus delectus excepturi possimus expedita provident, tenetur laborum dicta sequi commodi et ipsum aperiam maxime. Totam architecto temporibus adipisci nobis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eveniet repellat reiciendis laboriosam consectetur quasi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aut voluptatem, accusantium porro nisi cumque est repellat rerum voluptate.",
-      "img": "/images/blog3.jpg"
+      "img": "/blog3.jpg"
     },
     {
       "id": 4,
       "title": "Blog 4",
       "author": "Natasa",
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quasi accusamus delectus excepturi possimus expedita provident, tenetur laborum dicta sequi commodi et ipsum aperiam maxime. Totam architecto temporibus adipisci nobis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facilis placeat voluptates vitae blanditiis molestiae nemo omnis sunt qui eos. Voluptatem, dolor nemo.",
-      "img": "/images/blog4.jpg"
+      "img": "/blog4.jpg"
     }
   ],
   "poruke": [
@@ -51,6 +51,14 @@
         "message": "da li je moguce da radi sa srecom"
       },
       "id": 3
+    },
+    {
+      "data": {
+        "name": "Svetlana Mijatović",
+        "email": "ceca@gmail.com",
+        "message": "Provjeravamo da li radi dodavanje poruke na Natasinom sajtu"
+      },
+      "id": 4
     }
   ]
 }
